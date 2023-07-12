@@ -1,0 +1,224 @@
+/* wildcard all selection */
+
+* {
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+}
+
+/* SECTION 1 */
+#section1 .parent {
+    width: 500px;
+    height: 400px;
+    background-color: yellow;
+    position: relative;
+}
+
+#section1 #box1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+
+}
+#section1 #box2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 100px;
+    top: 0;
+
+}
+#section1 #box3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    top: 0;
+
+}
+
+/* SECTION 2 */
+#section2 .parent {
+    width: 500px;
+    height: 400px;
+    background-color: yellow;
+    position: relative;
+}
+
+#section2 #box1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+
+}
+#section2 #box2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 0;
+    top: 100px;
+
+}
+#section2 #box3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 200px;
+
+}
+
+/* SECTION 3 */
+#section3 .parent {
+    width: 500px;
+    height: 400px;
+    background-color: yellow;
+    position: relative;
+}
+
+#section3 #box1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    /* transform: translateX(-50%); */
+
+}
+#section3 #box2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translateX(-50%);
+
+}
+#section3 #box3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 200px;
+
+}
+/* SECTION 4 */
+#section4 .parent {
+    width: 500px;
+    height: 400px;
+    background-color: yellow;
+    position: relative;
+}
+
+#section4 #box1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* transform: translateX(-50%); */
+
+}
+#section4 #box2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+
+}
+#section4 #box3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+
+}
+/* SECTION 5 */
+#section5 .parent {
+    width: 500px;
+    height: 400px;
+    background-color: yellow;
+    position: relative;
+}
+
+#section5 #box1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* transform: translateX(-50%); */
+
+}
+#section5 #box2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+
+}
+#section5 #box3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+
+}
+/* SECTION 6 STACKING CONTEXT, REFER HTML CODE*/
+#section6 .parent {
+    width: 500px;
+    height: 400px;
+    background-color: yellow;
+    position: relative;
+}
+
+#section6 #box1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* transform: translateZ(-200px); */
+    z-index: 2;
+}
+
+#section6 #box2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    /* transform: translateZ(-100%); */
+    z-index: 1;
+}
+#section6 #box3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 0;
+
+}
