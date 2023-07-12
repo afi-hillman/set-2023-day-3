@@ -18,7 +18,7 @@ body {
   width: 1000px;
   height: 600px;
   border-radius: 80px;
-  border: 5px solid #fff;
+  border: 4px solid #fff;
   background: linear-gradient(
     135deg,
     rgba(255, 255, 255, 0.34) 0%,
@@ -36,4 +36,190 @@ body {
   width: 100px;
   left: 40px;
   top: 5%;
+}
+
+/* a {
+  all: unset;
+  cursor: pointer;
+}
+
+nav:hover {
+  color: yellow;
+}
+
+nav {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.menu-group {
+  list-style: none;
+  float: right;
+}
+
+.menu-item {
+  display: inline-block;
+  font-family: "Roboto";
+  color: white;
+  margin-right: 40px;
+  font-weight: 300;
+} */
+
+.nav-bar {
+  font-family: "Roboto";
+  color: white;
+  position: absolute;
+  top: 6%;
+  left: 17%;
+}
+
+#nav1,
+#nav2,
+#nav3,
+#nav4,
+#nav5,
+#nav6 {
+  position: absolute;
+}
+
+#nav1 {
+  left: 30px;
+}
+#nav2 {
+  left: 100px;
+}
+#nav3 {
+  left: 190px;
+}
+#nav4 {
+  left: 260px;
+}
+#nav5 {
+  left: 550px;
+}
+#nav6 {
+  left: 670px;
+  width: 80px;
+  z-index: 3;
+}
+
+#searchIcon {
+  position: absolute;
+  width: 30px;
+  left: 510px;
+  top: -7px;
+}
+
+#pinkBox {
+  background-color: #ff64a5;
+  width: 120px;
+  height: 50px;
+  position: absolute;
+  right: 65px;
+  top: 18px;
+  z-index: 1;
+  border-radius: 12px;
+}
+
+.middle {
+  position: absolute;
+}
+
+#nikeSwooshMiddle {
+  width: 600px;
+  transform: translateX(40%);
+  top: 200px;
+  position: absolute;
+  /* border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 180px;
+  padding: 30px; */
+}
+
+#middleRadius {
+  position: absolute;
+  width: 700px;
+  height: 300px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 700px;
+  top: 150px;
+  left: 200px;
+}
+
+#nikeShoe {
+  width: 600px;
+  position: absolute;
+  transform: rotate(-5deg);
+  top: -20px;
+  left: 200px;
+  z-index: 10;
+}
+
+#nikeTag1 {
+  font-family: "Montserrat";
+  color: white;
+  position: absolute;
+  left: 235px;
+  top: 170px;
+  font-size: 200px;
+  font-weight: 500;
+}
+#nikeTag2 {
+  font-family: "Montserrat";
+  color: white;
+  position: absolute;
+  left: 550px;
+  top: 170px;
+  font-size: 200px;
+  font-weight: 500;
+  z-index: 11;
+}
+
+.bottom #shopIcon {
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+  width: 30px;
+  z-index: 2;
+}
+
+.bottom #cartText {
+  position: absolute;
+  font-family: "Roboto";
+  color: white;
+  width: 85px;
+  bottom: 35px;
+  left: 150px;
+  z-index: 2;
+}
+
+.bottom #bottomBox {
+  position: absolute;
+  bottom: 28px;
+  left: 77px;
+  width: 160px;
+  height: 20px;
+  background-color: #4729ff;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.bottom #bottomTopText {
+  position: absolute;
+  font-family: "Roboto";
+  color: white;
+  left: 700px;
+  bottom: 90px;
+}
+.bottom #bottomBotText {
+  position: absolute;
+  font-family: "Roboto";
+  color: #9e9e9e;
+  left: 700px;
+  bottom: 30px;
+  width: 250px;
+  font-weight: 400;
 }
